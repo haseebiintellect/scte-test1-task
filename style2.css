@@ -1,0 +1,623 @@
+body{
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+
+.section1{
+    background-image: url(./images/bit.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 575px;
+}
+.custom-row{
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+}
+.navbar ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    width: 960px;
+    justify-content: space-around;
+}
+
+.logo1{
+    display: flex;
+    width: 100%;
+}
+.logo1 .section1-banner-image{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo1 .section1-banner-image img{
+    margin: -95px 285px 0px 0px;
+}
+
+.logo1 .paragraph{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 83px 0px 0px;
+    flex-direction: column;
+}
+
+.paragraph {
+    color: white;
+
+}
+
+
+.button11{
+    background: chocolate;
+}
+
+.button1{
+    background: bottom;
+    color: darkgray
+}
+.dark{
+    color: #f5a623;
+}
+
+
+
+.section2{
+       background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.paragrah2{
+    background: deepskyblue;
+
+
+}
+
+.button2{
+    background: cornflowerblue;
+}
+
+
+.button19{
+    text-align: center;
+    position: absolute;
+}
+
+.section15{
+    background-image: url("./images/blacky.jpg");
+    
+}
+
+.main-class1{
+    height: auto;
+    width: auto;
+    background-color: #00aeef;
+}
+.font-color{
+    color: white;
+}
+.button-end{
+    background-color: cornflowerblue;
+}
+
+.last-end{
+    background-image: url(LAST.PNG);
+    width: 1231px;
+    margin: 0 auto;
+    height: 341px;
+    background-repeat: no-repeat
+}
+
+
+
+
+
+
+
+
+
+
+
+/*///jhugar css*/
+
+
+
+
+
+
+#header-section .primary-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+#header-section .header-nav ul{
+    list-style-type: none;
+    padding-left: 81px;
+}
+#header-section .header-nav ul li{
+    list-style-type: none;
+    padding-left: 0px;
+    float: left;
+    margin-right: 30px;
+
+}
+#header-section .header-nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Avenir LT Std';
+    font-size: 14px;
+}
+#header-section .main-wrapper{
+    display: flex;
+    padding-left: 64px;
+}
+#header-section .btn-wrapper{
+    padding-top:14px;
+}
+#header-section .cmn-btn{
+    padding:6px 24px;
+    font-family: 'Avenir LT Std';
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right:8px;
+}
+#header-section .btn-transparent{
+    border:1px solid #fff;
+    background-color: transparent;
+}
+#header-section .btn-dark{
+    background-color: #54585a;
+}
+#header-section .icon-wrapper{
+    padding-top:14px;
+    display: flex;
+}
+#header-section .icon-wrapper img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* header section end */
+#leadership-hero{
+    background-image: url("../images/bg.png");
+    height: 649px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#leadership-hero .standard-section{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 70px;
+}
+#leadership-hero .standard-section h2{
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    font-family: "Adobe Caslon Pro";
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+#leadership-hero .standard-section p{
+    text-shadow: 0 0 16px #000000;
+    font-family: 'Avenir LT Std';
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+#leadership-hero .standard-section img{
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+#leadership-hero .image-section{
+    background-image: url(../images/certificate.png);
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 100%;
+    margin-top: 50%;
+}
+
+/* leadership section End */
+
+/* certified section start  */
+#certified{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#certified p{
+    font-family: 'Avenir LT Std';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5e6a6e;
+    padding-top: 30px;
+}
+#certified .certified-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#certified .certified-content h5{
+    font-family: "Adobe Caslon Pro";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #54585a;
+}
+#certified .card .card-image{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    position: relative;
+}
+#certified .card .card-image img:nth-child(1){
+    display: block;
+}
+#certified .card .card-image img:nth-child(2){
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+#certified .card:hover img:nth-child(2){
+    display: block;
+}
+#certified .card{
+    padding: 26px;
+    margin-top: 30px;
+    color: #5e6a6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.21);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#certified .card:hover{
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.21)!important;
+    background-color: #00aeef!important;
+    color: #fff;
+}
+/* #certified .card.blue-card{
+    border-radius: 8px;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.21)!important;
+  background-color: #00aeef!important;
+} */
+/* #certified .card.blue-card h3{
+    color: #ffffff!important;
+} */
+#certified .card h3{
+    font-family: 'Avenir LT Std';
+    font-size: 18px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* certified section end  */
+
+/* Brochure section start */
+#Brochure{
+    height: 376px;
+    width: 1349px;
+    margin: 0 auto;
+}
+#Brochure .col-sm-6{
+    padding: 0px;
+}
+#Brochure .golden-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5a623;
+    height: 376px;
+}
+#Brochure .blue-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00b2b3;
+    height: 376px;
+}
+#Brochure h3{
+    font-family: "Adobe Caslon Pro";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+}
+#Brochure p{
+    font-family: 'Avenir LT Std';
+    font-size: 18px;
+    font-weight: normal;;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+#Brochure a{
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+#Brochure .blue-container a{
+    color: #00b2b3;
+}
+#Brochure .golden-container a{
+    color: #f5a623;
+}
+
+
+/* Brochure section end */
+/* certification section start */
+#certification{
+    padding: 50px 0px;
+}
+#certification .certification-content{
+    padding-bottom: 30px;
+}
+#certification .certification-content h5{
+    font-family: "Adobe Caslon Pro";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #54585a;
+}
+#certification .image-section{
+
+}
+#certification .image-section img{
+    width: 100%;
+
+}
+
+/* certification section end */
+/* Related section start */
+#related{
+    padding: 50px 0px;
+}
+#related .related-content{
+    padding-bottom: 30px;
+
+}
+#related .related-content h5{
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #54585a;
+    font-family: "Adobe Caslon Pro";
+}
+#related .related-content ul{
+    list-style: none;
+    padding: 30px 0px;
+}
+#related .related-content ul li{
+    float: left;
+}
+#related .related-content ul li.active a{
+    font-size: 21px;
+    font-weight: 900!important;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #54585a!important;
+}
+#related .related-content ul li.active a:after{
+    content: '';
+    width: 92px;
+    height: 3px;
+    background-color: #00aeef;
+    display: block;
+    margin-top: 2px;
+}
+#related .related-content ul li a{
+    font-size: 21px;
+    font-weight: normal;
+    font-family: 'Avenir LT Std';
+    line-height: normal;
+    letter-spacing: normal;
+    color: #54585a;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#related .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.21);
+    background-color: #ffffff;
+    margin: 30px 0px;
+}
+#related .card .card-img{
+    width: 149px;
+    height: 118px;
+}
+/* Related section end */
+/* Polices section start */
+#polices{
+    width: 1349px;
+    margin: 0 auto;
+}
+#polices p{
+    font-family: "Adobe Caslon Pro";
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #54585a;
+    padding: 20px 0px;
+}
+#polices .polices-content{
+    width: 100%;
+    height: 459px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 18%;
+}
+#polices .polices-content h2{
+    font-family: 'Adobe Caslon Pro';
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    color: #54585a;
+    text-align: left;
+}
+#polices .polices-content p{
+    font-family: 'Avenir LT Std';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #54585a;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+#polices .polices-content a{
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #f5a623;
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+}
+#polices .polices-image{
+    background-image: url(../images/police.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 459px;
+}
+#polices .col-sm-6{
+    padding: 0px;
+}
+/* Polices section end */
+
+/* SCTE ByLaws section start */
+#byLaws{
+    width: 1349px;
+    margin: 0 auto;
+}
+#byLaws .byLaws{
+    width: 100%;
+    height: 459px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+}
+#byLaws .byLaws h2{
+    font-family: 'Adobe Caslon Pro';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    color: #54585a;
+    text-align: left;
+}
+#byLaws .byLaws p{
+    font-family: 'Avenir LT Std';
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #54585a;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+#byLaws .byLaws a{
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #00b2b3;
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+}
+#byLaws .col-sm-6{
+    padding: 0px;
+}
+
+/* SCTE ByLaws section end */
+
+
+
+
+
+
+
+
+
+
+
+
